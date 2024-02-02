@@ -570,7 +570,7 @@ public abstract class UserBasePlugin<T extends UserExtension> extends BasePlugin
             add(child, "option", "name", "ENABLE_SWING_INSPECTOR", "value", "false");
             add(child, "option", "name", "ENV_VARIABLES");
             add(child, "option", "name", "PASS_PARENT_ENVS", "value", "true");
-            add(child, "module", "name", ((IdeaModel) project.getExtensions().getByName("idea")).getModule().getName());
+            add(child, "module", "name", ((IdeaModel) project.getExtensions().getByName("idea")).getModule().getName() + ".main");
             add(child, "envs");
             add(child, "RunnerSettings", "RunnerId", "Run");
             add(child, "ConfigurationWrapper", "RunnerId", "Run");
