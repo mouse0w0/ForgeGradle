@@ -50,14 +50,14 @@ public class Constants
     public static final Closure<Boolean> CALL_FALSE = new Closure<Boolean>(null){ public Boolean call(Object o){ return false; }};
 
     // urls
-    public static final String MC_JSON_URL      = "http://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.json";
-    public static final String MC_JAR_URL       = "http://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.jar";
-    public static final String MC_SERVER_URL    = "http://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar";
+    public static final String MC_JSON_URL      = "https://launchermeta.mojang.com/v1/packages/ed5d8789ed29872ea2ef1c348302b0c55e3f3468/1.7.10.json";
+    public static final String MC_JAR_URL       = "https://launcher.mojang.com/v1/objects/e80d9b3bf5085002218d4be59e668bac718abbc6/client.jar";
+    public static final String MC_SERVER_URL    = "https://launcher.mojang.com/v1/objects/952438ac4e01b4d115c5fc38f891710c4941df29/server.jar";
     public static final String MCP_URL          = "https://files.minecraftforge.net/fernflower-fix-1.0.zip";
-    public static final String ASSETS_URL       = "http://resources.download.minecraft.net";
+    public static final String ASSETS_URL       = "https://resources.download.minecraft.net";
     public static final String LIBRARY_URL      = "https://libraries.minecraft.net/";
     public static final String FORGE_MAVEN      = "https://maven.minecraftforge.net";
-    public static final String ASSETS_INDEX_URL = "https://s3.amazonaws.com/Minecraft.Download/indexes/{ASSET_INDEX}.json";
+    public static final String ASSETS_INDEX_URL = "https://launchermeta.mojang.com/v1/packages/1863782e33ce7b584fc45b037325a1964e095d3e/1.7.10.json";
 
     // MCP things
     public static final String CONFIG_MCP_DATA  = "mcpSnapshotDataConfig";
