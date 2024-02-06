@@ -42,7 +42,7 @@ repositories {
         name = "eclipse"
         url = "https://repo.eclipse.org/content/groups/eclipse/"
     }
-    jcenter() // get as many deps from here as possible
+//    jcenter() // get as many deps from here as possible
     mavenCentral()
 
     // because SS and its snapshot
@@ -116,6 +116,7 @@ dependencies {
     shade('org.eclipse.platform:org.eclipse.core.contenttype:3.7.900') { force = true }
     shade('org.eclipse.platform:org.eclipse.core.jobs:3.10.1100') { force = true }
     shade('org.eclipse.platform:org.eclipse.equinox.registry:3.10.100') { force = true }
+    shade('org.eclipse.platform:org.eclipse.equinox.preferences:3.9.100') { force = true }
     shade('org.eclipse.platform:org.eclipse.osgi:3.16.200') { force = true }
     shade('org.eclipse.platform:org.eclipse.core.commands:3.9.800') { force = true }
 
